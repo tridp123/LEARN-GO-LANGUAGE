@@ -1,0 +1,38 @@
+[
+	{
+		"id":"i01",
+		"name":"invoice",
+		"payment":"cash",
+		"total":20,
+		"customer":{
+			"cus":"c01",
+			"name":"name 1",
+			"date_of_birthday":"17-11-1995"
+		},
+		"status":"cancel"
+	},
+	{
+		"id":"i02",
+		"name":"invoice 2",
+		"payment":"cash 2",
+		"total":24,
+		"customer":{
+			"cus":"c02",
+            "name":"name 2",
+            "date_of_birthday":"17-11-1996"
+		},
+		"status":"cancel"
+	},
+	{
+		"id":"i03",
+		"name":"invoice 3",
+		"payment":"cash 3",
+		"total":30,
+		"customer":{
+			"cus":"c03",
+            "name":"name 3",
+            "date_of_birthday":"13-1-1993"
+		},
+		"status":"cancel"
+	}
+]
