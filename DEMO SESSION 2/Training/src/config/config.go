@@ -4,7 +4,7 @@ import (
 	mgo "gopkg.in/mgo.v2"
 )
 
-func GetMongoDB() (*mgo.Database, error) {
+func Connect() (*mgo.Database, error) {
 	host := "mongodb://localhost:27017"
 	dbName := "demo_session_9"
 
